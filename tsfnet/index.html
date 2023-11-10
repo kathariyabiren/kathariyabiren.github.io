@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Joint Pixel and Frequency Feature Learning and Fusion via Channel-wise Transformer for High-Efficiency Learned In-Loop Filter in VVC</title>
+  <title>TSF-Net</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,28 +52,28 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Joint Pixel and Frequency Feature Learning and Fusion via Channel-wise Transformer for High-Efficiency Learned In-Loop Filter in VVC</h1>
+            <h4 style="font-family:verdana;font-size:140%;">IEEE Transactions on Circuits and Systems for Video Technology</h4><br><br>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Birendra Kathariya</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Zhu Li</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Geert Van der Auwera</a><sup>2</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><sup>1</sup>University of Missouri-Kansas City,  <sup>2</sup>Qualcomm Technologies Inc.</span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10275101" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -124,20 +124,6 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -148,7 +134,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Block-based video codecs such as Versatile Video Coding (VVC)/H.266, High Efficiency Video Coding (HEVC)/H.265, Advanced Video Coding (AVC)/H.264 etc. inherently introduces compression artifacts. Although these codecs have in-loop filters to correct these distortions, they are not always effective due to the complexity of the noise. Recently, deep-learning approaches emerged as a promising solution for in-loop filtering. However, most of the previous approaches were designed solely for learning from images and neglected the high-frequency signals present in the reconstructed video frames. Furthermore, some previous methods employed a multi-level feature-extraction and feature-fusion strategy to enhance performance. However, they utilized complex feature-extractors while relying on naive feature-fusion methods. In this article, we propose a novel framework called \textit{TSF-Net}, which jointly learns from both the pixel (spatial) and frequency-decomposed information and through powerful capability of a channel-wise transformer, it fuses both these information to improve performance. Our approach deviates from previous approaches by employing a simple feature-extractor coupled with an advanced transformer-based feature-fusion module. Simultaneously, <i>TSF-Net</i> introduces a few fundamental modifications in the multi-head self-attention module of the channel-wise transformer to make it computationally efficient. Our experimental results show that the proposed <i>TSF-Net</i> achieves a Bjøntegaard Delta (BD) - bitrate saving of up to 10.258% for the luma (Y) component under all-intra (AI) profile outperforming the VVC baseline and other state-of-the-art methods. Moreover, the proposed <i>TSF-Net</i> with an efficient channel-wise transformer is twice as efficient as <i>TSF-Net</i> with a vanilla channel-wise transformer.
           </p>
         </div>
       </div>
@@ -158,127 +144,70 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+<!-- TSF-Net Architecture -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <h2 class="title is-3 has-text-centered">Overall Architecture: TSF-Net </h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
-          <div class="publication-video">
+          <div class="tsf-net arch">
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <img src="static/images/overall_tsfnet.png" width="800"/>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- TSF-Net Architecture -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
+<!-- TSF-Net Components -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+      <h2 class="title is-3 has-text-centered">Components: TSF-Net</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <center><img src="static/images/RFB.png" alt="MY ALT TEXT" width="700"/></center>
+        <h2 class="subtitle has-text-centered">
+          Residual Fusion Block (RFB).
+        </h2>
       </div>
-    </div>
-  </section>
-<!--End paper poster -->
+      <div class="item">
+        <!-- Your image here -->
+        <center><img src="static/images/E-SMSA.png" alt="MY ALT TEXT" width="600"/></center>
+        <h2 class="subtitle has-text-centered">
+          Efficient Spectral-wise Multihead Self-Attention (E-SMSA).
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- TSF-Net Components -->
 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>
+        @ARTICLE{10275101,
+          author={Kathariya, Birendra and Li, Zhu and Van der Auwera, Geert},
+          journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+          title={Joint Pixel and Frequency Feature Learning and Fusion via Channel-wise Transformer for High-Efficiency Learned In-Loop Filter in VVC}, 
+          year={2023},
+          volume={},
+          number={},
+          pages={1-1},
+          doi={10.1109/TCSVT.2023.3323483}
+        }
+      </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -292,7 +221,7 @@
 
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
