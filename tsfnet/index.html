@@ -73,7 +73,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://ieeexplore.ieee.org/abstract/document/10275101" target="_blank"
+                        <a href="static/pdfs/TSF-Net_TCSVT_Biren.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -106,7 +106,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://ieeexplore.ieee.org/abstract/document/10275101" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -144,8 +144,35 @@
 <!-- End paper abstract -->
 
 
-<!-- TSF-Net Architecture -->
+<!-- TSF-Net Inputs -->
 <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Inputs: TSF-Net</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <center><img src="static/images/rec_res_pat.png" alt="MY ALT TEXT" width="1000"/></center>
+        <h2 class="subtitle has-text-centered">
+          Reconstructed Luma and its accociated Partition and Residual Image.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <center><img src="static/images/dct_input.png" alt="MY ALT TEXT" width="800"/></center>
+        <h2 class="subtitle has-text-centered">
+          Pipeline for preparing DCT inputs from Luma and Residual Image.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- TSF-Net Inputs -->
+
+
+<!-- TSF-Net Architecture -->
+<section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
@@ -166,7 +193,7 @@
 
 
 <!-- TSF-Net Components -->
-<section class="hero is-small is-light">
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3 has-text-centered">Components: TSF-Net</h2>
@@ -192,6 +219,60 @@
 <!-- TSF-Net Components -->
 
 
+<!-- TSF-Net Results -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Results: TSF-Net</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <center><img src="static/images/RD_Plots.png" alt="MY ALT TEXT" width="1500"/></center>
+        <h2 class="subtitle has-text-centered">
+          Rate-Distortion (RD) plots for few test sequences comparing <i>TSF-Net</i> with VVC reference software. The Y-PSNR (dB) are evaluated at 4 QPs={42, 37, 32, 27}.
+        </h2>
+      </div>
+      <div class="item">
+        <h2 class="subtitle has-text-centered">
+          Table I: Comparison of BD-Rate(%) and BD-PSNR(dB) performance on Luma Component under All-Intra (AI) Configuration.
+        </h2>
+        <!-- Your image here -->
+        <center><img src="static/images/table_comparison.png" alt="MY ALT TEXT" width="1500"/></center>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- TSF-Net Results -->
+
+
+<!-- Visual Comparison -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Visual Comparison</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <center><img src="static/images/catrobot_qp37.png" alt="MY ALT TEXT" width="1500"/></center>
+        <h2 class="subtitle has-text-centered">
+          <b>Left</b>: An original frame from CatRobot sequence. <b>Middle</b>: The same frame coded at QP=32 and processed with VTM-11.0's In-loop filters. <b>Right</b>: The same frame coded with VTM-11.0 at QP=32 and processed with <i>TSF-Net</i>.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <center><img src="static/images/generative_property.png" alt="MY ALT TEXT" width="2500"/></center>
+        <h2 class="subtitle has-text-centered">
+          <b>Left</b>: An original frame from BasketballPass sequence. <b>Middle</b>: The same frame coded and reconstructed at QP=47 by VTM-11.0 but yet to be processed by the in-loop filter. This is also an input to <i>TSF-Net</i>. <b>Right</b>: The output frame of <i>TSF-Net</i> after processing the frame shown in the middle.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!--  Visual Comparison -->
+
+
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
@@ -211,6 +292,24 @@
     </div>
 </section>
 <!--End BibTex citation -->
+
+
+<!-- Acknowledgement and Funding -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Acknowledgement and Funding</h2>
+        <div class="content has-text-justified">
+          <p>
+            This work is accomplished in collaboration with <i>Qualcomm</i> and partially supported by the NSF award 2148382.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
 
 
   <footer class="footer">
