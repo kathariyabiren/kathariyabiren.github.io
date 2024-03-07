@@ -3,5 +3,5 @@ title: Birendra Kathariya
 #description: text below image
 show_downloads: true
 layout:
-  width: 1000px  # Adjust the width as needed
+  width: 1500px  # Adjust the width as needed
 theme: jekyll-theme-minimal
