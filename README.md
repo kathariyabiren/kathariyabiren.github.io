@@ -3,7 +3,7 @@
 #### Technical Skills: C, C++, Python, Matlab, VHDL
 
 ## Education
-- Ph.D.
+- B.E. | Nepal Engineering College, Nepal | 2008-2012
 
 ## Experience
 
