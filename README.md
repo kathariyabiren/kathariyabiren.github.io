@@ -7,7 +7,10 @@
 - Masters | University of Missouri-Kansas City, USA | 2015-2017
 - Ph.D. || University of Missouri-Kansas City, USA | 2017-Present
 
-#### Programming: C, C++, Python, Matlab, VHDL
+## Skills & Abilities
+#### Programming
+- C, C++, Python, Matlab, VHDL
+  
 #### Expertise
 - Image, Video and Point Cloud Compression/Processing
 - Compression in Federated Learning and Deep Learning Model Compression
