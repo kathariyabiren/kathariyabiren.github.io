@@ -2,6 +2,6 @@ title: Birendra Kathariya
 #logo: /assets/img/headshot_circle.png
 #description: text below image
 show_downloads: true
-classes: wide
-layout: single
+layout: 
+  width: 2000px
 theme: jekyll-theme-minimal
