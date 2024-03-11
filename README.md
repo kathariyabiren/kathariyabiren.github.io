@@ -16,11 +16,11 @@
 - Machine Learning, Neural Network and Deep Learning
 
 ## Experience
-- RESEARCH ASSISTANT, MCC LAB, UMKC (AUGUST 2016-PRESENT)
-  **The key responsibilities are to conduct research on different topics related to multimedia computation and compression under the supervision of Professor Zhu Li.**
+**RESEARCH ASSISTANT, MCC LAB, UMKC (AUGUST 2016-PRESENT)**
+The key responsibilities are to conduct research on different topics related to multimedia computation and compression under the supervision of Professor Zhu Li.**
 
-- MEDIATEK, SAN JOSE, CA (INTERNSHIP, JUNE 2017- JULY 2017)
-  Implement tiled based 360o video player on web-browser that should support MPEG-DASH (Dynamic Adaptive Streaming over HTTP) SRD (Spatial Relationship Descriptor)
+**MEDIATEK, SAN JOSE, CA (INTERNSHIP, JUNE 2017- JULY 2017)**
+Implement tiled based 360o video player on web-browser that should support MPEG-DASH (Dynamic Adaptive Streaming over HTTP) SRD (Spatial Relationship Descriptor)
 
 
 ## Publication
