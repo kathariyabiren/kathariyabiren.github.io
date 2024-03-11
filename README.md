@@ -7,7 +7,7 @@
 - Masters | University of Missouri-Kansas City, USA || 2015-2017
 - Ph.D. || University of Missouri-Kansas City, USA ||| 2017-Present
 
----
+------
 
 ## Skills & Abilities
 **Programming**
