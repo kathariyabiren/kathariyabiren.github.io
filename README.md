@@ -1,5 +1,5 @@
 ## About Me
-I am a Ph.D. student at University of Missouri_Kansas City (UMKC).
+I am a Ph.D. student at University of Missouri Kansas-City (UMKC), working in Multimedia Computation and Communication (MCC) Lab under the supervision of Dr. Zhu Li. 
 
 ---
 
