@@ -1,10 +1,13 @@
 ## About Me
 
+---
 
 ## Education
 - B.E. || Nepal Engineering College, Nepal || 2008-2012
 - Masters | University of Missouri-Kansas City, USA | 2015-2017
 - Ph.D. || University of Missouri-Kansas City, USA | 2017-Present
+
+---
 
 ## Skills & Abilities
 **Programming**
@@ -14,6 +17,8 @@
 - Image, Video and Point Cloud Compression/Processing
 - Compression in Federated Learning and Deep Learning Model Compression
 - Machine Learning, Neural Network and Deep Learning
+
+---
 
 ## Experience
 **RESEARCH ASSISTANT, MCC LAB, UMKC (AUGUST 2016-PRESENT)**
@@ -34,6 +39,7 @@
 **QUALCOMM, SAN DIEGO, CA (INTERNSHIP, AUGUST 2022- SEPTEMBER 2023)**
 - Worked on deriving the angular parameters of KITTI dataset for optimal compression with G-PCC. 
 
+---
 
 ## Publication
 -	Birendra Kathariya, Zhu Li, G. Van der Auwera, “TSF-Net3D: TSF-Net for 3D Point Cloud Attribute Compression Artifacts Removal ”, ICIP 2024 (Submitted)
