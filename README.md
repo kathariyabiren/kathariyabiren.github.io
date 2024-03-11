@@ -16,6 +16,8 @@
 - Machine Learning, Neural Network and Deep Learning
 
 ## Experience
+- RESEARCH ASSISTANT | MCC LAB, UMKC | AUGUST 2016-PRESENT
+
 
 ## Publication
 -	Birendra Kathariya, Zhu Li, G. Van der Auwera, “TSF-Net3D: TSF-Net for 3D Point Cloud Attribute Compression Artifacts Removal ”, ICIP 2024 (Submitted)
