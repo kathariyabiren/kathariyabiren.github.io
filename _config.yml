@@ -1,7 +1,7 @@
 title: Birendra Kathariya
 logo: /assets/img/logo.jpg
 email: bkkvh8 at umstem dot edu
-#theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 blank_title: true
 favicon: true
 description: ""
@@ -9,11 +9,11 @@ show_downloads: false
 google_analytics: G-ZLK2GHB055
 remote_theme: #BDHU/minimalist
 color-scheme: light
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jemoji
-  - jekyll-remote-theme
+#plugins:
+#  - jekyll-sitemap
+#  - jekyll-seo-tag
+#  - jemoji
+#  - jekyll-remote-theme
 
 sidebar:
   - name: CV
