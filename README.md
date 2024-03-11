@@ -42,7 +42,7 @@ I am a Ph.D. student at University of Missouri Kansas-City (UMKC), working in Mu
 
 ---
 
-## Publication
+## [Publication](https://scholar.google.com/citations?user=YptLS-sAAAAJ&hl=en) 
 -	Birendra Kathariya, Zhu Li, G. Van der Auwera, “TSF-Net3D: TSF-Net for 3D Point Cloud Attribute Compression Artifacts Removal ”, ICIP 2024 (Submitted)
 -	Birendra Kathariya, Anique Akthar, Zhu Li, G. Van der Auwera, “PointCU: Multiscale Sparse Convolution Learning for Point Cloud Color Upsampling”, TCSVT 2023 (Under Review)
 -	Birendra Kathariya, Zhu Li, G. Van der Auwera, “Joint Pixel and Frequency Feature Learning and Fusion via Channel-wise Transformer for High-Efficiency Learned In-Loop Filter in VVC”, TCSVT 2023
