@@ -18,6 +18,8 @@
 - Compression in Federated Learning and Deep Learning Model Compression
 - Machine Learning, Neural Network and Deep Learning
 
+---
+
 ## Experience
 **RESEARCH ASSISTANT, MCC LAB, UMKC (AUGUST 2016-PRESENT)**
 - The key responsibilities are to conduct research on different topics related to multimedia computation and compression under the supervision of Professor Zhu Li.
@@ -37,6 +39,7 @@
 **QUALCOMM, SAN DIEGO, CA (INTERNSHIP, AUGUST 2022- SEPTEMBER 2023)**
 - Worked on deriving the angular parameters of KITTI dataset for optimal compression with G-PCC. 
 
+---
 
 ## Publication
 -	Birendra Kathariya, Zhu Li, G. Van der Auwera, “TSF-Net3D: TSF-Net for 3D Point Cloud Attribute Compression Artifacts Removal ”, ICIP 2024 (Submitted)
