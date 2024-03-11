@@ -1,5 +1,5 @@
 ## About Me
-
+I am a Ph.D. student at University of Missouri_Kansas City (UMKC).
 ---
 
 ## Education
