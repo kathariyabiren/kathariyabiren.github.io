@@ -16,7 +16,8 @@
 - Machine Learning, Neural Network and Deep Learning
 
 ## Experience
-- RESEARCH ASSISTANT | MCC LAB, UMKC | AUGUST 2016-PRESENT
+- RESEARCH ASSISTANT, MCC LAB, UMKC (AUGUST 2016-PRESENT)
+·	The key responsibilities are to conduct research on different topics related to multimedia computation and compression under the supervision of Professor Zhu Li.
 
 
 ## Publication
