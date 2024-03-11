@@ -7,7 +7,7 @@ favicon: true
 description: ""
 show_downloads: false
 google_analytics: G-ZLK2GHB055
-layout: default
+#layout: default
 remote_theme: BDHU/minimalist
 color-scheme: light
 plugins:
