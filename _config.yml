@@ -8,7 +8,7 @@ description: ""
 show_downloads: false
 google_analytics: G-ZLK2GHB055
 layout: default
-#remote_theme: BDHU/minimalist
+remote_theme: BDHU/minimalist
 color-scheme: light
 plugins:
   - jekyll-remote-theme
