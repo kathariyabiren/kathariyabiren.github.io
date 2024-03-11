@@ -7,10 +7,10 @@
 - Ph.D. || University of Missouri-Kansas City, USA | 2017-Present
 
 ## Skills & Abilities
-### Programming
+**Programming**
 - C, C++, Python, Matlab, VHDL
   
-### Expertise
+**Expertise**
 - Image, Video and Point Cloud Compression/Processing
 - Compression in Federated Learning and Deep Learning Model Compression
 - Machine Learning, Neural Network and Deep Learning
@@ -33,7 +33,6 @@
 
 **QUALCOMM, SAN DIEGO, CA (INTERNSHIP, AUGUST 2022- SEPTEMBER 2023)**
 - Worked on deriving the angular parameters of KITTI dataset for optimal compression with G-PCC. 
-
 
 
 ## Publication
