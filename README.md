@@ -5,7 +5,7 @@
 ## Education
 - B.E. || Nepal Engineering College, Nepal ||| 2008-2012
 - Masters | University of Missouri-Kansas City, USA || 2015-2017
-- Ph.D. || University of Missouri-Kansas City, USA || 2017-Present
+- Ph.D. || University of Missouri-Kansas City, USA ||| 2017-Present
 
 ---
 
